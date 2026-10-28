@@ -1,0 +1,37 @@
+/* all Content in center
+background while 
+use some other font 
+/* button blue*/
+body{
+font-family: Arial, sans-serif;
+background-color: #f0f4f8;
+} 
+
+.card{
+    background-color: white;
+    margin: auto;
+    border: 2px solid #2563eb;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+h1{
+    background-color: lightblue;
+    padding : 12px;
+    border-radius: 10px;
+    color:#2563eb;
+}
+p{
+    padding: 5px;
+}
+
+button{
+    background-color: #2563eb;
+    padding: 12px 25px;
+    color: white;
+    border-color: #2563eb;
+    border-radius: 5px;
+}
+    

@@ -1,0 +1,10 @@
+/* body{
+    background-image: url("pexels-codioful-6985001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+body{
+    background: url("pexels-codioful-6985001.jpg")  no-repeat fixed;
+    background-size: cover;
+}

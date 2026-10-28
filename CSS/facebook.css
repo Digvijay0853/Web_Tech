@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* min-height: 100vh; */
+    justify-content: space-between;
+}
+
+.left{
+    width: 500px; 
+}
+.left h1 {
+    color: #0866ff;
+    font-size: 60px;
+}
+.left p {
+    font-size: 25px;
+}
+.right{
+    width: 400px;
+}
+.signup-box{
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+}
+.heading{
+    border-bottom: 1px solid #dadde1;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+}
+
+.heading h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.hedaing p {
+    font-size: 15px;
+    color: #606770;
+    margin-top: 0;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 11px;
+    font-size: 15px;
+    border:1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.name-row{
+    display: flex;
+    gap: 10px;
+}
+.name-row input{
+    width: 50%;
+}
+
+.field-label{
+    display: block;
+    color: #606770;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.date-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.date-row select{
+    flex: 1;
+    padding: 10px 5px ;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    /* text-align: center; */
+}
+.gender-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.gender-option{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+}
+.terms{
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 12px;
+    
+}
+
+button{
+    display: block;
+    width: 65%;
+    margin: 18px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #36a420;
+}
+
+.signup-box a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    margin: 15px 0 15px;
+}
+
